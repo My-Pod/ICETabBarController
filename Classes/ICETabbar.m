@@ -73,6 +73,7 @@
         item.tag = 1000 + i;;
         item.frame = frame;
         item.backgroundColor = [UIColor greenColor];
+        item.textColor = self.tintColor;
         [item didSelected:^{
             if (self.selectedBlock) {
                 self.selectedBlock(i);
@@ -89,7 +90,6 @@
         self.currentSelectedindex = 0;
     }
 }
-
 
 /**
  *  当只有两个iteam时的布局

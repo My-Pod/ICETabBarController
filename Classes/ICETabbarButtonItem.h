@@ -27,4 +27,6 @@
 
 - (void)didSelected:(void (^)())completion;
 
+- (void)setTextColor:(UIColor *)textColor;
+
 @end

@@ -43,6 +43,7 @@
     
     ICETabbarController *tabbarController = [[ICETabbarController alloc] init];
     tabbarController.tabBar.backgroundColor = [UIColor yellowColor];
+    tabbarController.tabBar.tintColor = [UIColor redColor];
     tabbarController.myTabbar.myItems = tabbarItems;
     tabbarController.viewControllers = @[navi2, navi1,vc3,vc4];
     self.window.rootViewController = tabbarController;

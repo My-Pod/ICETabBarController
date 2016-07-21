@@ -9,9 +9,10 @@
 #import "ICETabbarButtonItem.h"
 
 @interface ICETabbarButtonItem ()
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (nonatomic, copy) void (^selecctedBlock)();
+@property (weak, nonatomic  ) IBOutlet UILabel        *titleLabel;
+@property (weak, nonatomic  ) IBOutlet UIImageView    *imageView;
+@property (nonatomic, strong) UIColor        *textColor;
+@property (nonatomic, copy  ) void (^  selecctedBlock)();
 @end
 
 @implementation ICETabbarButtonItem
@@ -60,8 +61,9 @@
     }
 }
 
-
-
+- (void)setTextColor:(UIColor *)textColor{
+    _titleLabel.textColor = textColor;
+}
 #pragma mark- layoutsubviews
 
 - (NSString *)debugDescription
