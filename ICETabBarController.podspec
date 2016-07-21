@@ -14,6 +14,6 @@ s.source           = { :git => 'https://github.com/My-Pod/ICETabBarController.gi
 s.ios.deployment_target = '7.0'
 s.source_files = 'Classes/*.{h,m,xib}'
 s.resources_bundles = {
-	'Classes' => ['Classes/*.xib']
+	'ICETabBarController' => ['ICETabBarController/Classes/*.xib']
 }
 end
