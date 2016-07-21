@@ -12,8 +12,7 @@ s.author           = { 'gumengxiao' => 'rare_ice@163.com' }
 s.source           = { :git => 'https://github.com/My-Pod/ICETabBarController.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '7.0'
-s.source_files = 'Classes/*.{h,m,xib}'
-s.resources_bundles = {
-	'ICETabBarController' => ['ICETabBarController/Classes/*.xib']
-}
+s.source_files = 'Classes/*.{h,m}'
+s.resources = 'Classes/Xib/*.xib'
+
 end

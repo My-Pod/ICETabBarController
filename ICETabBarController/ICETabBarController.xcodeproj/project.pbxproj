@@ -15,10 +15,6 @@
 		1758F6181D4066CB003436AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1758F6161D4066CB003436AA /* LaunchScreen.storyboard */; };
 		1758F6231D4066CB003436AA /* ICETabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F6221D4066CB003436AA /* ICETabBarControllerTests.m */; };
 		1758F62E1D4066CB003436AA /* ICETabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F62D1D4066CB003436AA /* ICETabBarControllerUITests.m */; };
-		1758F6581D4066EB003436AA /* ICETabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F63D1D4066EB003436AA /* ICETabbar.m */; };
-		1758F6591D4066EB003436AA /* ICETabbarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F63F1D4066EB003436AA /* ICETabbarButtonItem.m */; };
-		1758F65A1D4066EB003436AA /* ICETabbarButtonItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1758F6401D4066EB003436AA /* ICETabbarButtonItem.xib */; };
-		1758F65B1D4066EB003436AA /* ICETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F6421D4066EB003436AA /* ICETabbarController.m */; };
 		1758F65C1D4066EB003436AA /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1758F6451D4066EB003436AA /* Contents.json */; };
 		1758F65D1D4066EB003436AA /* icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1758F6461D4066EB003436AA /* icon_home.png */; };
 		1758F65E1D4066EB003436AA /* icon_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1758F6471D4066EB003436AA /* icon_home@2x.png */; };
@@ -39,6 +35,10 @@
 		1758F66F1D4066F3003436AA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1758F66D1D4066F3003436AA /* README.md */; };
 		1758F6721D407536003436AA /* 2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F6711D407536003436AA /* 2ViewController.m */; };
 		1758F6741D409B8E003436AA /* ICETabBarController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1758F6731D409B8E003436AA /* ICETabBarController.podspec */; };
+		1758F67E1D40B4F9003436AA /* ICETabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F6771D40B4F9003436AA /* ICETabbar.m */; };
+		1758F67F1D40B4F9003436AA /* ICETabbarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F6791D40B4F9003436AA /* ICETabbarButtonItem.m */; };
+		1758F6801D40B4F9003436AA /* ICETabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1758F67B1D40B4F9003436AA /* ICETabbarController.m */; };
+		1758F6811D40B4F9003436AA /* ICETabbarButtonItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1758F67D1D40B4F9003436AA /* ICETabbarButtonItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,13 +75,6 @@
 		1758F6291D4066CB003436AA /* ICETabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICETabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1758F62D1D4066CB003436AA /* ICETabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICETabBarControllerUITests.m; sourceTree = "<group>"; };
 		1758F62F1D4066CB003436AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1758F63C1D4066EB003436AA /* ICETabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETabbar.h; sourceTree = "<group>"; };
-		1758F63D1D4066EB003436AA /* ICETabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETabbar.m; sourceTree = "<group>"; };
-		1758F63E1D4066EB003436AA /* ICETabbarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETabbarButtonItem.h; sourceTree = "<group>"; };
-		1758F63F1D4066EB003436AA /* ICETabbarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETabbarButtonItem.m; sourceTree = "<group>"; };
-		1758F6401D4066EB003436AA /* ICETabbarButtonItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICETabbarButtonItem.xib; sourceTree = "<group>"; };
-		1758F6411D4066EB003436AA /* ICETabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETabbarController.h; sourceTree = "<group>"; };
-		1758F6421D4066EB003436AA /* ICETabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETabbarController.m; sourceTree = "<group>"; };
 		1758F6451D4066EB003436AA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		1758F6461D4066EB003436AA /* icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home.png; sourceTree = "<group>"; };
 		1758F6471D4066EB003436AA /* icon_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_home@2x.png"; sourceTree = "<group>"; };
@@ -103,6 +96,13 @@
 		1758F6701D407536003436AA /* 2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2ViewController.h; sourceTree = "<group>"; };
 		1758F6711D407536003436AA /* 2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 2ViewController.m; sourceTree = "<group>"; };
 		1758F6731D409B8E003436AA /* ICETabBarController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICETabBarController.podspec; path = ../ICETabBarController.podspec; sourceTree = "<group>"; };
+		1758F6761D40B4F9003436AA /* ICETabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETabbar.h; sourceTree = "<group>"; };
+		1758F6771D40B4F9003436AA /* ICETabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETabbar.m; sourceTree = "<group>"; };
+		1758F6781D40B4F9003436AA /* ICETabbarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETabbarButtonItem.h; sourceTree = "<group>"; };
+		1758F6791D40B4F9003436AA /* ICETabbarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETabbarButtonItem.m; sourceTree = "<group>"; };
+		1758F67A1D40B4F9003436AA /* ICETabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETabbarController.h; sourceTree = "<group>"; };
+		1758F67B1D40B4F9003436AA /* ICETabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETabbarController.m; sourceTree = "<group>"; };
+		1758F67D1D40B4F9003436AA /* ICETabbarButtonItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICETabbarButtonItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,7 @@
 				1758F6731D409B8E003436AA /* ICETabBarController.podspec */,
 				1758F66C1D4066F3003436AA /* LICENSE */,
 				1758F66D1D4066F3003436AA /* README.md */,
-				1758F63B1D4066EB003436AA /* Classes */,
+				1758F6751D40B4F9003436AA /* Classes */,
 				1758F6431D4066EB003436AA /* images */,
 				1758F6071D4066CB003436AA /* ICETabBarController */,
 				1758F6211D4066CB003436AA /* ICETabBarControllerTests */,
@@ -199,21 +199,6 @@
 			path = ICETabBarControllerUITests;
 			sourceTree = "<group>";
 		};
-		1758F63B1D4066EB003436AA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1758F63C1D4066EB003436AA /* ICETabbar.h */,
-				1758F63D1D4066EB003436AA /* ICETabbar.m */,
-				1758F63E1D4066EB003436AA /* ICETabbarButtonItem.h */,
-				1758F63F1D4066EB003436AA /* ICETabbarButtonItem.m */,
-				1758F6401D4066EB003436AA /* ICETabbarButtonItem.xib */,
-				1758F6411D4066EB003436AA /* ICETabbarController.h */,
-				1758F6421D4066EB003436AA /* ICETabbarController.m */,
-			);
-			name = Classes;
-			path = ../Classes;
-			sourceTree = "<group>";
-		};
 		1758F6431D4066EB003436AA /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +253,29 @@
 				1758F6571D4066EB003436AA /* icon_user_o@3x.png */,
 			);
 			path = icon_user_o.imageset;
+			sourceTree = "<group>";
+		};
+		1758F6751D40B4F9003436AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1758F6761D40B4F9003436AA /* ICETabbar.h */,
+				1758F6771D40B4F9003436AA /* ICETabbar.m */,
+				1758F6781D40B4F9003436AA /* ICETabbarButtonItem.h */,
+				1758F6791D40B4F9003436AA /* ICETabbarButtonItem.m */,
+				1758F67A1D40B4F9003436AA /* ICETabbarController.h */,
+				1758F67B1D40B4F9003436AA /* ICETabbarController.m */,
+				1758F67C1D40B4F9003436AA /* Xib */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		1758F67C1D40B4F9003436AA /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				1758F67D1D40B4F9003436AA /* ICETabbarButtonItem.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +385,6 @@
 				1758F6651D4066EB003436AA /* icon_user.png in Resources */,
 				1758F6681D4066EB003436AA /* Contents.json in Resources */,
 				1758F66E1D4066F3003436AA /* LICENSE in Resources */,
-				1758F65A1D4066EB003436AA /* ICETabbarButtonItem.xib in Resources */,
 				1758F66A1D4066EB003436AA /* icon_user_o@2x.png in Resources */,
 				1758F6601D4066EB003436AA /* Contents.json in Resources */,
 				1758F65E1D4066EB003436AA /* icon_home@2x.png in Resources */,
@@ -390,6 +397,7 @@
 				1758F6631D4066EB003436AA /* icon_home_o@3x.png in Resources */,
 				1758F6131D4066CB003436AA /* Main.storyboard in Resources */,
 				1758F6621D4066EB003436AA /* icon_home_o@2x.png in Resources */,
+				1758F6811D40B4F9003436AA /* ICETabbarButtonItem.xib in Resources */,
 				1758F6661D4066EB003436AA /* icon_user@2x.png in Resources */,
 				1758F6691D4066EB003436AA /* icon_user_o.png in Resources */,
 				1758F66B1D4066EB003436AA /* icon_user_o@3x.png in Resources */,
@@ -420,13 +428,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1758F6101D4066CB003436AA /* ViewController.m in Sources */,
+				1758F6801D40B4F9003436AA /* ICETabbarController.m in Sources */,
+				1758F67F1D40B4F9003436AA /* ICETabbarButtonItem.m in Sources */,
 				1758F60D1D4066CB003436AA /* AppDelegate.m in Sources */,
-				1758F6591D4066EB003436AA /* ICETabbarButtonItem.m in Sources */,
 				1758F66F1D4066F3003436AA /* README.md in Sources */,
-				1758F65B1D4066EB003436AA /* ICETabbarController.m in Sources */,
 				1758F6721D407536003436AA /* 2ViewController.m in Sources */,
 				1758F60A1D4066CB003436AA /* main.m in Sources */,
-				1758F6581D4066EB003436AA /* ICETabbar.m in Sources */,
+				1758F67E1D40B4F9003436AA /* ICETabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
