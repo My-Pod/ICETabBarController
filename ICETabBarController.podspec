@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ICETabBarController'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = '简单的自定义tabBarController'
 s.description      = <<-DESC
 TODO: 简单的TabBarController自定义, 自定义继承自Tabbar的类,替代系统的tabbar以实现定制,并不影响系统功能

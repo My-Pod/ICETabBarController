@@ -52,7 +52,7 @@
 - (void)p_reloadBtnItem{
 
     
-    if (self.myItems.count == 2) {
+    if (self.myItems.count == 2 &&  UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         [self p_reloadIteamForIpad_twoIteam];
         return;
     }

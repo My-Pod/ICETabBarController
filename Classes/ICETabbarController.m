@@ -28,6 +28,7 @@
         _myTabbar = [[ICETabbar alloc] init];
         _myTabbar.frame = self.tabBar.bounds;
         _myTabbar.backgroundColor = [UIColor whiteColor];
+        _myTabbar.tintColor = [UIColor darkTextColor];
         [_myTabbar didSelectedItem:^(NSInteger index) {
             self.selectedIndex = index;
         }];

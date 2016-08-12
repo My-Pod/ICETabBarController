@@ -36,14 +36,11 @@
     UIViewController *vc4 = [[UIViewController alloc] init];
 
     ICETabbarButtonItem *homeItem = [[ICETabbarButtonItem alloc] initWithTitle:@"首页" withSelectImage:[UIImage imageNamed:@"icon_home"] withNormalImage:[UIImage imageNamed:@"icon_home_o"]];
-    ICETabbarButtonItem *meItem = [[ICETabbarButtonItem alloc] initWithTitle:@"我的" withSelectImage:[UIImage imageNamed:@"icon_user"] withNormalImage:[UIImage imageNamed:@"icon_user_o"]];
-    ICETabbarButtonItem *threedItem = [[ICETabbarButtonItem alloc] initWithTitle:@"3" withSelectImage:nil withNormalImage:nil];
-    ICETabbarButtonItem *fourItem = [[ICETabbarButtonItem alloc] initWithTitle:@"4" withSelectImage:nil withNormalImage:nil];
-    NSArray * tabbarItems = @[homeItem,meItem, threedItem, fourItem];
+    ICETabbarButtonItem *meItem = [[ICETabbarButtonItem alloc] initWithTitle:@"个人中心" withSelectImage:[UIImage imageNamed:@"icon_user"] withNormalImage:[UIImage imageNamed:@"icon_user_o"]];
+       NSArray * tabbarItems = @[homeItem,meItem];
     
     ICETabbarController *tabbarController = [[ICETabbarController alloc] init];
-    tabbarController.tabBar.backgroundColor = [UIColor yellowColor];
-    tabbarController.tabBar.tintColor = [UIColor redColor];
+    tabbarController.tabBar.backgroundColor = [UIColor  blueColor];
     tabbarController.myTabbar.myItems = tabbarItems;
     tabbarController.viewControllers = @[navi2, navi1,vc3,vc4];
     self.window.rootViewController = tabbarController;
